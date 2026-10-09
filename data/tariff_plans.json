@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "note": "示例数据：套餐结构与产品线为主流跨境通信运营商公开业务形态的演示子集，金额为演示用示例价，非官方报价。接入生产前须替换为官方资费接口。",
+    "currency": "HKD"
+  },
+  "plans": [
+    {
+      "id": "gba-30",
+      "name": "大灣區數據共享計劃 30GB",
+      "type": "monthly",
+      "persona": "gba",
+      "monthly_fee": 128,
+      "data_gb": 30,
+      "data_scope": ["HK", "CN", "MO"],
+      "throttle_after": null,
+      "mainland_number": true,
+      "contract_months": 12,
+      "highlights": ["港澳內三地共享數據", "送內地號碼（一卡兩號）"]
+    },
+    {
+      "id": "gba-60",
+      "name": "大灣區數據共享計劃 60GB",
+      "type": "monthly",
+      "persona": "gba",
+      "monthly_fee": 168,
+      "data_gb": 60,
+      "data_scope": ["HK", "CN", "MO"],
+      "throttle_after": null,
+      "mainland_number": true,
+      "contract_months": 12,
+      "highlights": ["港澳內三地共享數據", "送內地號碼（一卡兩號）", "大灣區不限速"]
+    },
+    {
+      "id": "student-100",
+      "name": "內地學生計劃 100GB",
+      "type": "monthly",
+      "persona": "student",
+      "monthly_fee": 99,
+      "data_gb": 100,
+      "data_scope": ["HK"],
+      "throttle_after": "1Mbps",
+      "mainland_number": true,
+      "mainland_data_gb": 6,
+      "contract_months": 12,
+      "highlights": ["100GB 香港5G數據+其後無限任用(高達1Mbps)", "6GB 內地數據", "送內地號碼"]
+    },
+    {
+      "id": "local-5g-60",
+      "name": "本地5G月費計劃 60GB",
+      "type": "monthly",
+      "persona": "local",
+      "monthly_fee": 158,
+      "data_gb": 60,
+      "data_scope": ["HK"],
+      "throttle_after": null,
+      "mainland_number": false,
+      "contract_months": 12,
+      "highlights": ["香港本地5G"]
+    },
+    {
+      "id": "local-5g-180",
+      "name": "本地5G月費計劃 180GB",
+      "type": "monthly",
+      "persona": "local",
+      "monthly_fee": 258,
+      "data_gb": 180,
+      "data_scope": ["HK"],
+      "throttle_after": null,
+      "mainland_number": false,
+      "contract_months": 12,
+      "highlights": ["香港本地5G大用量"]
+    },
+    {
+      "id": "travel-sim-8d",
+      "name": "環球旅遊儲值卡 8日",
+      "type": "prepaid",
+      "persona": "travel",
+      "monthly_fee": 88,
+      "data_gb": 6,
+      "data_scope": ["JP", "KR", "SG", "TH", "MY", "EU", "UK", "US", "AU"],
+      "throttle_after": null,
+      "mainland_number": false,
+      "contract_months": 0,
+      "valid_days": 8,
+      "highlights": ["免登記漫遊按金", "一次過覆蓋多個熱門目的地"]
+    }
+  ],
+  "roaming_packs": [
+    {
+      "id": "rp-jp-kr-5d",
+      "name": "日韓漫遊數據包 5日5GB",
+      "destinations": ["JP", "KR"],
+      "days": 5,
+      "data_gb": 5,
+      "price": 98
+    },
+    {
+      "id": "rp-asia-7d",
+      "name": "東南亞漫遊數據包 7日6GB",
+      "destinations": ["TH", "SG", "MY", "VN", "PH", "ID"],
+      "days": 7,
+      "data_gb": 6,
+      "price": 108
+    },
+    {
+      "id": "rp-eu-8d",
+      "name": "歐洲漫遊數據包 8日8GB",
+      "destinations": ["UK", "FR", "DE", "IT", "CH", "ES"],
+      "days": 8,
+      "data_gb": 8,
+      "price": 158
+    },
+    {
+      "id": "rp-us-au-10d",
+      "name": "美加澳漫遊數據包 10日10GB",
+      "destinations": ["US", "CA", "AU", "NZ"],
+      "days": 10,
+      "data_gb": 10,
+      "price": 188
+    },
+    {
+      "id": "rp-gba-1gb",
+      "name": "大灣區數據加購 1GB",
+      "destinations": ["CN", "MO"],
+      "days": 0,
+      "data_gb": 1,
+      "price": 30,
+      "note": "參考公開資費：額外大灣區不限速共享數據 $30/1GB，撥 *118*297# 申請"
+    },
+    {
+      "id": "rp-mainland-daily",
+      "name": "內地數據日包 1GB",
+      "destinations": ["CN"],
+      "days": 1,
+      "data_gb": 1,
+      "price": 18
+    }
+  ],
+  "destination_aliases": {
+    "HK": ["香港", "hong kong", "hk"],
+    "CN": ["內地", "大陆", "内地", "中國", "中国", "china", "mainland", "深圳", "廣州", "广州", "珠海", "大灣區", "大湾区"],
+    "MO": ["澳門", "澳门", "macau", "macao"],
+    "JP": ["日本", "japan", "jp", "東京", "东京", "大阪"],
+    "KR": ["韓國", "韩国", "korea", "kr", "首爾", "首尔"],
+    "TH": ["泰國", "泰国", "thailand", "th", "曼谷", "布吉", "普吉"],
+    "SG": ["新加坡", "singapore", "sg"],
+    "MY": ["馬來西亞", "马来西亚", "malaysia", "my"],
+    "VN": ["越南", "vietnam", "vn"],
+    "PH": ["菲律賓", "菲律宾", "philippines"],
+    "ID": ["印尼", "indonesia", "巴厘"],
+    "UK": ["英國", "英国", "uk", "london", "倫敦", "伦敦"],
+    "FR": ["法國", "法国", "france", "巴黎"],
+    "DE": ["德國", "德国", "germany", "法蘭克福", "法兰克福"],
+    "IT": ["意大利", "義大利", "italy"],
+    "CH": ["瑞士", "switzerland"],
+    "ES": ["西班牙", "spain"],
+    "US": ["美國", "美国", "usa", "us", "洛杉磯", "洛杉矶", "紐約", "纽约"],
+    "CA": ["加拿大", "canada", "多倫多", "多伦多", "温哥华"],
+    "AU": ["澳洲", "澳大利亞", "澳大利亚", "australia", "悉尼", "墨爾本", "墨尔本"],
+    "NZ": ["新西蘭", "新西兰", "new zealand"]
+  }
+}

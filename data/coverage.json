@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "note": "示例数据：网络资源为公开宣传口径的示例子集，用于演示覆盖查询工具，非官方工程数据。"
+  },
+  "mobile": [
+    { "region": "HK", "network": "5G / 4G", "coverage": "全港覆蓋", "note": "香港本地5G網絡" },
+    { "region": "CN", "network": "漫遊(合作網絡)", "coverage": "全國主要城市", "note": "內地漫遊走合作夥伴網絡" },
+    { "region": "MO", "network": "漫遊", "coverage": "全澳覆蓋", "note": "大灣區計劃涵蓋澳門" }
+  ],
+  "enterprise": {
+    "pop_nodes": ["香港", "新加坡", "東京", "首爾", "倫敦", "法蘭克福", "巴黎", "洛杉磯", "聖何塞", "迪拜", "悉尼"],
+    "pop_note": "全球 POP 節點（示例子集），支撐專線與 MPLS VPN 到達",
+    "submarine_cables": ["亞太直達(APG)", "亞美海底光纜(AAG)", "東亞洲海底光纜(EAC-C2C)等"],
+    "submarine_note": "香港為亞太海纜樞紐，示例列出常用亞太海纜系統"
+  },
+  "region_aliases": {
+    "hk": "HK", "hong kong": "HK", "香港": "HK",
+    "cn": "CN", "china": "CN", "內地": "CN", "大陆": "CN", "内地": "CN", "中國": "CN", "中国": "CN",
+    "mo": "MO", "澳門": "MO", "澳门": "MO",
+    "sg": "SG", "singapore": "SG", "新加坡": "SG",
+    "jp": "JP", "japan": "JP", "日本": "JP",
+    "us": "US", "usa": "US", "美國": "US", "美国": "US",
+    "uk": "UK", "英國": "UK", "英国": "UK",
+    "eu": "EU", "歐洲": "EU", "欧洲": "EU", "倫敦": "UK", "法蘭克福": "DE", "法國": "FR",
+    "la": "US", "洛杉磯": "US", "洛杉矶": "US", "三藩市": "US", "聖何塞": "US"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {"query": "国际漫游怎么开通", "doc": "roaming_guide", "section_contains": "出发前开通国际漫游"},
+  {"query": "漫遊按金幾多錢", "doc": "roaming_guide", "section_contains": "出发前"},
+  {"query": "大湾区数据点样申请额外1GB", "doc": "gba_plans", "section_contains": "大湾区数据共享计划"},
+  {"query": "一卡两号是什么", "doc": "gba_plans", "section_contains": "一卡两号"},
+  {"query": "内地学生计划有什么优惠", "doc": "gba_plans", "section_contains": "内地学生计划"},
+  {"query": "eSIM点开通", "doc": "payment_and_esim", "section_contains": "eSIM"},
+  {"query": "储值卡边度充值", "doc": "payment_and_esim", "section_contains": "储值卡充值"},
+  {"query": "投诉流程系点㗎", "doc": "service_policy", "section_contains": "投诉"},
+  {"query": "个人资料点保护", "doc": "service_policy", "section_contains": "个人资料"},
+  {"query": "IEPL适合咩场景", "doc": "enterprise_solutions", "section_contains": "IEPL"},
+  {"query": "SD-WAN有什么好处", "doc": "enterprise_solutions", "section_contains": "SD-WAN"},
+  {"query": "跨云互联用什么产品", "doc": "enterprise_solutions", "section_contains": "跨境云专线"},
+  {"query": "跨境资产追踪用咩方案", "doc": "enterprise_solutions", "section_contains": "全球物联网"},
+  {"query": "客户服务热线系几多", "doc": "company_intro", "section_contains": "个人业务"},
+  {"query": "SD-WAN fast branch deployment", "doc": "enterprise_overview_en", "section_contains": "Global Connectivity"},
+  {"query": "Hong Kong data center colocation", "doc": "enterprise_overview_en", "section_contains": "Cloud and Data Center"},
+  {"query": "怎么样才能联系到人工客服", "doc": "service_policy", "section_contains": "投诉"},
+  {"query": "国际企业业务包括什么产品", "doc": "company_intro", "section_contains": "企业业务"}
+]

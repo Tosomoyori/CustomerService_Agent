@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "note": "示例数据：产品线为主流跨境通信运营商公开业务形态的演示子集，参数为演示用示例，非官方报价。"
+  },
+  "solutions": [
+    {
+      "id": "iepl",
+      "name": "IEPL 國際以太網專線",
+      "category": "connectivity",
+      "bandwidth_mbps": [2, 10000],
+      "min_sites": 2,
+      "scenarios": ["金融機構總分支互聯", "低時延點對點傳輸", "跨域數據中心互聯"],
+      "features": ["點對點二層專線", "帶寬獨享", "時延低且穩定", "運營商級SLA"],
+      "keywords": ["iepl", "以太網", "以太网", "專線", "专线", "點對點", "点对点", "低時延", "低延迟", "金融"]
+    },
+    {
+      "id": "iplc",
+      "name": "IPLC 國際租用專線",
+      "category": "connectivity",
+      "bandwidth_mbps": [64, 10000],
+      "min_sites": 2,
+      "scenarios": ["傳統點對點國際電路", "語音/數據混合承載"],
+      "features": ["半永久電路", "按帶寬計費", "成熟穩定"],
+      "keywords": ["iplc", "國際專線", "国际专线", "電路", "电路"]
+    },
+    {
+      "id": "sdwan",
+      "name": "SD-WAN 智選專線",
+      "category": "connectivity",
+      "bandwidth_mbps": [10, 1000],
+      "min_sites": 2,
+      "scenarios": ["多分支機構快速開通", "專線+互聯網混合組網", "跨境零售門市組網"],
+      "features": ["CPE自動配置快速開通", "集中管控可視化", "成本較專線低", "智能選路"],
+      "keywords": ["sdwan", "sd-wan", "sd wan", "分支", "門市", "门店", "組網", "组网", "混合", "快速開通", "性價比", "性价比"]
+    },
+    {
+      "id": "mpls_vpn",
+      "name": "MPLS VPN 虛擬專網",
+      "category": "connectivity",
+      "bandwidth_mbps": [2, 1000],
+      "min_sites": 3,
+      "scenarios": ["多站點任意互聯", "企業內網隔離承載"],
+      "features": ["任意互聯拓撲", "邏輯隔離安全", "全球POP覆蓋"],
+      "keywords": ["mpls", "vpn", "虛擬專網", "虚拟专网", "多站點", "多站点", "任意互聯"]
+    },
+    {
+      "id": "cloud_connect",
+      "name": "跨境雲專線（高速通道）",
+      "category": "cloud",
+      "bandwidth_mbps": [50, 5000],
+      "min_sites": 2,
+      "scenarios": ["雲上雲下互聯", "跨雲互聯", "內地與海外雲資源互通"],
+      "features": ["直連主流雲平台", "跨境合規傳輸", "彈性帶寬"],
+      "keywords": ["雲專線", "云专线", "cloud", "雲互聯", "云互联", "高速通道", "上雲", "上云", "跨境雲", "跨雲"]
+    },
+    {
+      "id": "idc_cloud",
+      "name": "香港雲數據中心與機櫃租用",
+      "category": "cloud",
+      "bandwidth_mbps": [100, 10000],
+      "min_sites": 1,
+      "scenarios": ["海外IT基座落地香港", "私有雲部署", "機櫃託管"],
+      "features": ["香港T3+機房", "私有雲解決方案", "機櫃/機房租用"],
+      "keywords": ["idc", "機櫃", "机柜", "數據中心", "数据中心", "託管", "托管", "私有雲", "私有云", "機房", "机房"]
+    },
+    {
+      "id": "ip_transit",
+      "name": "IP轉接（IP Transit）",
+      "category": "connectivity",
+      "bandwidth_mbps": [100, 100000],
+      "min_sites": 1,
+      "scenarios": ["運營商互聯網出口", "內容分發骨幹接入"],
+      "features": ["BGP路由接入", "運營商級互聯", "全球節點"],
+      "keywords": ["ip轉接", "ip转接", "transit", "bgp", "運營商", "运营商", "骨幹", "骨干"]
+    },
+    {
+      "id": "iot_global",
+      "name": "全球物聯網連接",
+      "category": "iot",
+      "bandwidth_mbps": [1, 100],
+      "min_sites": 1,
+      "scenarios": ["跨境資產追蹤", "車聯網", "智能電錶/傳感器回傳"],
+      "features": ["多國漫遊SIM/eSIM", "連接管理平台", "流量池共享"],
+      "keywords": ["物聯網", "物联网", "iot", "車聯網", "车联网", "追蹤", "追踪", "傳感器", "传感器", "sim卡池"]
+    }
+  ],
+  "industries": {
+    "金融": ["iepl", "cloud_connect", "mpls_vpn"],
+    "零售連鎖": ["sdwan", "iot_global"],
+    "零售": ["sdwan", "iot_global"],
+    "製造": ["sdwan", "cloud_connect", "iot_global"],
+    "制造": ["sdwan", "cloud_connect", "iot_global"],
+    "遊戲": ["iplc", "ip_transit", "idc_cloud"],
+    "物流": ["iot_global", "sdwan"],
+    "跨境電商": ["cloud_connect", "sdwan", "idc_cloud"],
+    "電商": ["cloud_connect", "sdwan", "idc_cloud"],
+    "互聯網": ["ip_transit", "idc_cloud", "cloud_connect"],
+    "教育": ["sdwan"],
+    "專業服務": ["sdwan", "mpls_vpn"]
+  }
+}
